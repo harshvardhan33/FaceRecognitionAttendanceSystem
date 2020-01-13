@@ -27,6 +27,7 @@ window.title("Face_Recogniser")
 window.geometry('1280x720')
 window.configure(background='black')
 
+
 class ImageLabel(Label):    
     def load(self, im):
         if isinstance(im, str):
